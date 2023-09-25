@@ -113,6 +113,7 @@ def main():
 
     while True:
         op = menu()
+        op=int(op)
 
         if op == 1:
             valor_depositado = float(input("Informe o valor que deseja depositar."))
